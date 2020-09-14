@@ -1,0 +1,30 @@
+{
+  "name": "oracle-providers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SavageryOrZen/oracle-providers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SavageryOrZen/oracle-providers/issues"
+  },
+  "homepage": "https://github.com/SavageryOrZen/oracle-providers#readme",
+  "dependencies": {
+    "@coinpaprika/api-nodejs-client": "^1.2.0",
+    "axios": "^0.20.0",
+    "coingecko-api": "^1.0.10",
+    "dotenv": "^8.2.0",
+    "ethereumjs-testrpc": "^6.0.3",
+    "jsdom": "^16.4.0",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "web3": "^1.2.11"
+  }
+}
